@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-gozo
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-dmpd-tenant/mc-quality-dashboard/backend-quality-dashboard-gozo@sha256:a2d1e24d77588f273e0b703434719e6f1b203c12d04ad17a9d3543464eb2f038
+        name: container-image
+        resources: {}
+status: {}

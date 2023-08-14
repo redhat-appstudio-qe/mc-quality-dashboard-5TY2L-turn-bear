@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: frontend-quality-dashboard-etvk
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-dmpd-tenant/mc-quality-dashboard/frontend-quality-dashboard-etvk@sha256:19ff806052bdafbf122047609854ad52a1976556f7cb3ed584b519ad760e11a9
         imagePullPolicy: Always
         name: container-image
         ports:
